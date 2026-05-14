@@ -1,0 +1,20 @@
+.category-card {
+  background-color: var(--background-secondary-color);
+  width: 312px;
+  height: 220px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+
+.category-card img {
+  padding: 41px 116px 0 116px;
+}
+
+.category-card h2 {
+  font-size: 28px;
+  font-weight: var(--titles-weight);
+  margin: 0;
+  padding: 0px 16px 41px;
+}
