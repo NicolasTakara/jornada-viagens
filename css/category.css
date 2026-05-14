@@ -7,6 +7,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 64px;
+  gap: 24px;
 }
 
 .category-cards .card {
@@ -24,4 +25,12 @@
 .category-cards .card h3 {
   font-size: 28px;
   font-weight: var(--titles-weight);
+}
+
+.category-cards .card.single-line {
+  padding-top: 50px;
+}
+
+.category-cards .card.single-line.transfer img {
+  margin: 10px 0 20px;
 }
