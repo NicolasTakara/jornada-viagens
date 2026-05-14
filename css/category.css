@@ -1,20 +1,27 @@
-.category-card {
+.category {
+  margin-top: 88px;
+}
+
+.category-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.category-cards .card {
   background-color: var(--background-secondary-color);
   width: 312px;
   height: 220px;
   border-radius: 8px;
   box-sizing: border-box;
   text-align: center;
+  color: var(--text-primary-color);
   text-decoration: none;
+  padding: 24px;
 }
 
-.category-card img {
-  padding: 41px 116px 0 116px;
-}
-
-.category-card h2 {
+.category-cards .card h3 {
   font-size: 28px;
   font-weight: var(--titles-weight);
-  margin: 0;
-  padding: 0px 16px 41px;
 }
