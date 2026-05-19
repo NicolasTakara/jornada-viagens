@@ -12,14 +12,11 @@
 }
 
 .destinations-itens .item header h4 {
-  font-size: 28px;
-  font-weight: var(--titles-weight);
   margin: 24px 0;
 }
 
 .destinations-itens .item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
+  margin-bottom: 24px;
 }
 
 .destinations-itens .item.tokyo .img-item {
@@ -34,7 +31,6 @@
 
 .destinations-itens .button {
   width: 100%;
-  margin-top: 24px;
 }
 
 @media screen and (min-width: 768px) {
