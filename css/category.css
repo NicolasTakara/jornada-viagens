@@ -1,12 +1,3 @@
-.category {
-  margin: 88px 0;
-}
-
-.category .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .category-cards {
   display: flex;
   flex-direction: column;
@@ -60,6 +51,6 @@
 
 @media screen and (min-width: 1440px) {
   .category-cards .card {
-    width: 288px;
+    width: 282px;
   }
 }
