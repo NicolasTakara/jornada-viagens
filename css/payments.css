@@ -1,0 +1,44 @@
+.text-content .content-text {
+  margin-bottom: 24px;
+}
+
+.image-content {
+  height: 460px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 254px auto;
+  gap: 24px;
+}
+
+.image-content .image.bag {
+  background: url(../img/bag-mobile.png);
+  background-size: cover;
+}
+
+.image-content .image.passport {
+  background: url(../img/passport-mobile.png);
+  background-size: cover;
+}
+
+.image-content .image.people.large {
+  background: url(../img/people-mobile.png);
+  background-size: cover;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .image-content .image.bag {
+    background: url(../img/bag-tablet-desktop.png);
+    background-size: contain;
+  }
+
+  .image-content .image.passport {
+    background: url(../img/passport-tablet-desktop.png);
+    background-size: contain;
+  }
+
+  .image-content .image.people.large {
+    background: url(../img/people-tablet-desktop.png);
+    background-size: contain;
+  }
+}
