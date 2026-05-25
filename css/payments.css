@@ -1,7 +1,3 @@
-.payments .content-container {
-  display: flex;
-}
-
 .payments .content-container .image-gallery {
   height: 460px;
   display: grid;
@@ -49,6 +45,7 @@
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
+    display: flex;
     justify-content: space-between;
   }
 
@@ -58,5 +55,6 @@
 
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 }
