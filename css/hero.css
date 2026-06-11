@@ -9,11 +9,11 @@
   background-size: cover;
 }
 
-.travel-packages-hero {
+.hero.travel-packages-hero {
   background: url(../img/travel-packages-hero-mobile.png) no-repeat;
   background-size: cover;
   height: 460px;
-  width: 100%;
+  margin-bottom: 88px;
 }
 
 .travel-packages-content {
@@ -45,7 +45,7 @@
 
 .bottom-hero .hero-img {
   background: url(../img/imagem-rodape-mobile.png) no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero h2 {
@@ -79,6 +79,23 @@
     padding: 88px 60px;
     font-size: 32px;
   }
+
+  .hero.travel-packages-hero {
+    background: url(../img/travel-packages-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .travel-packages-content {
+    width: 579px;
+    height: 303px;
+    padding: 210px 69px 106px 120px;
+  }
+
+  .travel-packages-text {
+    font-size: 32px;
+    line-height: 150%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -97,6 +114,13 @@
 
   .hero h2 {
     padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero.travel-packages-hero {
+    background: url(../img/travel-packages-hero-desktop.png) no-repeat;
+    background-size: cover;
   }
 }
 
