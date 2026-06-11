@@ -9,6 +9,40 @@
   background-size: cover;
 }
 
+.hero.travel-packages-hero {
+  background: url(../img/travel-packages-hero-mobile.png) no-repeat;
+  background-size: cover;
+  height: 460px;
+  margin-bottom: 88px;
+}
+
+.travel-packages-content {
+  padding: 65px 24px;
+}
+
+.travel-packages-content .section-title {
+  margin: 0;
+}
+
+.travel-packages-hero .section-title h2 {
+  color: var(--text-secondary-color);
+  font-size: 48px;
+  font-weight: var(--titles-weight);
+  text-align: start;
+  padding: 0;
+}
+
+.travel-packages-content hr {
+  margin-left: 0;
+}
+
+.travel-packages-text {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
 .bottom-hero .hero-img {
   background: url(../img/imagem-rodape-mobile.png) no-repeat;
   background-size: cover;
@@ -37,9 +71,30 @@
     height: 400px;
   }
 
+  .travel-packages-hero .hero-img {
+    background-image: url();
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
+  }
+
+  .hero.travel-packages-hero {
+    background: url(../img/travel-packages-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .travel-packages-content {
+    width: 579px;
+    height: 303px;
+    padding: 210px 69px 106px 120px;
+  }
+
+  .travel-packages-text {
+    font-size: 32px;
+    line-height: 150%;
   }
 }
 
@@ -59,6 +114,13 @@
 
   .hero h2 {
     padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero.travel-packages-hero {
+    background: url(../img/travel-packages-hero-desktop.png) no-repeat;
+    background-size: cover;
   }
 }
 
