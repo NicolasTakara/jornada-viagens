@@ -1,4 +1,5 @@
-.payments .content-container .image-gallery {
+.payments .content-container .image-gallery,
+.travel-packages-payments .content-container .image-gallery {
   height: 460px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -26,6 +27,45 @@
   grid-column: span 2;
 }
 
+.payments.travel-packages-payments .content-container h3 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.payments.travel-packages-payments .content-container h4 {
+  font-size: 28px;
+  margin: 0 0 24px;
+}
+
+.payments.travel-packages-payments .content-container p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.payments.travel-packages-payments
+  .content-container
+  .image-gallery
+  .image.first {
+  background: url(../img/img-payments-1.png);
+  background-size: cover;
+}
+
+.payments.travel-packages-payments
+  .content-container
+  .image-gallery
+  .image.second {
+  background: url(../img/img-payments-2.png);
+  background-size: cover;
+}
+
+.payments.travel-packages-payments
+  .content-container
+  .image-gallery
+  .image.thirdy.large {
+  background: url(../img/img-payments-3.png);
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/bag-tablet-desktop.png);
@@ -41,6 +81,31 @@
     background: url(../img/people-tablet-desktop.png);
     background-size: cover;
   }
+
+  .payments.travel-packages-payments
+  .content-container
+  .image-gallery
+  .image.first {
+  background: url(../img/img-payments-1-tablet-desktop.png);
+  background-size: cover;
+}
+
+.payments.travel-packages-payments
+  .content-container
+  .image-gallery
+  .image.second {
+  background: url(../img/img-payments-2-tablet-desktop.png);
+  background-size: cover;
+}
+
+.payments.travel-packages-payments
+  .content-container
+  .image-gallery
+  .image.thirdy.large {
+  background: url(../img/img-payments-3-tablet-desktop.png);
+  background-size: cover;
+}
+
 }
 
 @media screen and (min-width: 1440px) {
